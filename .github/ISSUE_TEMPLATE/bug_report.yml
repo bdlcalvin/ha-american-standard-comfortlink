@@ -1,0 +1,35 @@
+name: Bug report
+description: Report a problem with the integration
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen.
+    validations:
+      required: true
+  - type: input
+    id: ha-version
+    attributes:
+      label: Home Assistant version
+    validations:
+      required: true
+  - type: input
+    id: integration-version
+    attributes:
+      label: Integration version
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Water heater model (if known)
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: >
+        Settings → System → Logs, filtered for
+        `american_standard_comfortlink`. Remove any tokens or passwords first.
+      render: shell
