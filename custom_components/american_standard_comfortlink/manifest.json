@@ -1,0 +1,12 @@
+{
+  "domain": "american_standard_comfortlink",
+  "name": "American Standard ComfortLink",
+  "codeowners": ["@bdlcalvin"],
+  "config_flow": true,
+  "documentation": "https://github.com/bdlcalvin/ha-american-standard-comfortlink",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/bdlcalvin/ha-american-standard-comfortlink/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

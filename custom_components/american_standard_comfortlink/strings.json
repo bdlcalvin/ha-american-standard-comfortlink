@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "American Standard ComfortLink",
+        "description": "Enter your ComfortLink / HTP Net account credentials.",
+        "data": {
+          "email": "Email address",
+          "password": "Password",
+          "gateway": "Gateway ID (MAC address, e.g. AABBCCDDEEFF)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the ComfortLink service.",
+      "invalid_auth": "Invalid email or password.",
+      "unknown": "Unexpected error. Check the logs."
+    },
+    "abort": {
+      "already_configured": "This water heater is already configured."
+    }
+  }
+}
