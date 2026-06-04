@@ -23,6 +23,7 @@ jobs:
       - uses: hacs/action@main
         with:
           category: integration
-          # Brand images live in home-assistant/brands; remove this ignore once
-          # the icon/logo PR is merged there.
+          # Brand images ship locally in custom_components/.../brand/ (HA 2026.3+
+          # brands proxy). Kept ignored in case the HACS action still checks the
+          # brands CDN; safe to remove once it recognizes local brand images.
           ignore: brands
